@@ -181,6 +181,7 @@ footer {
 }
 .icon-link {
     text-decoration: none;
+    cursor: pointer;
 }
 .icon-link:nth-child(2) {
     margin: 0 10px;
