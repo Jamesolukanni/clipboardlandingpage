@@ -57,19 +57,11 @@ button {
     background-color: hsl(171, 80%, 41%);
     cursor: pointer;
 }
-.intro-button .ios-button a {
-    text-decoration: none;
-    color: #fff;
-}
 .mac-button {
     margin-left: 7.5px;
     padding: 20px 0;
     background-color: hsl(233, 100%, 69%);
     cursor: pointer;
-}
-.intro-button .mac-button a {
-    text-decoration: none;
-    color: #fff;
 }
 .add-intro {
     height: 200px;
@@ -187,6 +179,12 @@ footer {
     margin-left: 20%;
     flex: wrap;
 }
+.icon-link {
+    text-decoration: none;
+}
+.icon-link:nth-child(2) {
+    margin: 0 10px;
+}
 .ios-button:hover {
     background-color: hsl(171, 69%, 51%);
 }
@@ -195,9 +193,6 @@ footer {
 }
 .footer-word p:hover {
     color: hsl(171, 69%, 51%);
-}
-.social-icon:nth-child(2) {
-    margin: 0 15px;
 }
 .footer-word p {
     cursor: pointer;
